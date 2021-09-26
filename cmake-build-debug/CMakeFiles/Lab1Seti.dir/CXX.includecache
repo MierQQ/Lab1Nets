@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/MEB/CLionProjects/Lab1Seti/MCAException.h
+exception
+-
+string
+-
+cerrno
+-
+
+/mnt/c/Users/MEB/CLionProjects/Lab1Seti/MulticastCopyAnalyzer.cpp
+MulticastCopyAnalyzer.h
+/mnt/c/Users/MEB/CLionProjects/Lab1Seti/MulticastCopyAnalyzer.h
+
+/mnt/c/Users/MEB/CLionProjects/Lab1Seti/MulticastCopyAnalyzer.h
+string
+-
+unistd.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+poll.h
+-
+list
+-
+iostream
+-
+stdio.h
+-
+ctime
+-
+MCAException.h
+/mnt/c/Users/MEB/CLionProjects/Lab1Seti/MCAException.h
+
